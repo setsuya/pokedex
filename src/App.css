@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  position: relative;
+}
+
+body {
+  background-color: #c0c0c0;
+  /*font-family: 'M PLUS Rounded 1c', sans-serif;*/
+  font-family: 'Quicksand', sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: stretch;
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+  margin: 0 auto;
+  outline: 2px solid #222224;
+  background-color: #f0f0f0;
+}
